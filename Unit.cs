@@ -33,7 +33,7 @@ public abstract class Unit : MonoBehaviour
             System.Console.WriteLine("Персонаж погиб");
     }
 
-    public void ShowInfo()
+    public void InputInfo()
     {
         System.Console.WriteLine($"Damage: {Damage}");
         System.Console.WriteLine($"Health: {Health}");
